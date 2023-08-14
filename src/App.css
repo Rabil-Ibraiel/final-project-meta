@@ -4,7 +4,65 @@
     box-sizing: border-box;
 }
 
+:root {
+    --btn: #F4CE14;
+    --title: #C3A510;
+    --green: #495E57;
+
+}
+
+@media screen and (max-width: 2000px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 10px;
+    }
+}
+
 body {
-    width: 60%;
+    width: 80vw;
     margin: 15px auto;
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        width: 95vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 100vw;
+    }
+}
+
+*::selection {
+    background-color: aquamarine;
+    color: black;
+}
+
+.title {
+    color: var(--title);
 }

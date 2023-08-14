@@ -3,14 +3,25 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 200px;
+    gap: 20px;
 }
+
 
 .footer-img {
     transform: rotate(90deg);
+    height: 50px;
+
 }
 
 .footer-sec-title {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    gap: 20px;
 }
 
 .footer-sec-container {
@@ -27,4 +38,20 @@ footer {
 
 .footer-links li:not(:last-of-type) {
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 650px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-img {
+        transform: rotate(0deg);
+        margin-bottom: 30px;
+    }
+
+    .footer-content {
+        gap: 50px;
+        width: 100%;
+    }
 }

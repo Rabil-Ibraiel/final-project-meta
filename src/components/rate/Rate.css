@@ -1,0 +1,46 @@
+#rate {
+    background-color: #efefef;
+    width: 325px;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+#rate:hover {
+    background-color: #f8f7f7;
+}
+
+.rate-img-container {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rate-img {
+    height: 200%;
+    width: 200%;
+    object-fit: cover;
+    object-position: 85%;
+}
+
+.rate-name {
+    background-color: black;
+    color: #efefef;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 2px 5px;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.rate-rating {
+    margin-top: 25px;
+}
